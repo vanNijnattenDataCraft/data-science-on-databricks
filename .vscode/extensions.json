@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "eamodio.gitlens",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "ibm.output-colorizer",
+        "mechatroner.rainbow-csv",
+        "ms-python.python",
+        "oderwat.indent-rainbow",
+        "usernamehw.errorlens",
+    ]
+}

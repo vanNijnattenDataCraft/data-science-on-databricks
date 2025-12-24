@@ -1,0 +1,16 @@
+{
+    "files.insertFinalNewline": true,
+    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        120,
+    ],
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 130,
+    "git.autofetch": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.generateWithTypeAnnotation": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+}
