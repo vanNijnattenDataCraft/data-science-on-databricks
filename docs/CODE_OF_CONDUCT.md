@@ -1,4 +1,4 @@
-# Code of Conduct - Data Preprocessor
+# Code of Conduct - Data-Science on Databricks
 
 ## Our Pledge
 

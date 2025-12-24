@@ -1,17 +1,18 @@
-# Data Pre-Processor
+# Data Science on Databricks
 
-![Smoke Test](https://github.com/vanNijnattenDataCraft/data_preprocesser/actions/workflows/smoke_test.yaml/badge.svg)
+![Smoke Test](https://github.com/vanNijnattenDataCraft/data-science-on-databricks/actions/workflows/smoke_test.yaml/badge.svg)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
-The Data Pre-Processor is a Python project for pre-processing data files (csv, xlsx, etc) from various sources and locations to one or multiple destination files. A source data file usually needs to be validated before it can be processed in a data pipeline. Things that can be considered is the schema of the data (data types, column presence, names, contents of columns, uniqueness of primary keys), as well as presence of values in columns, conversion errors, and more. Finally, for some use cases, source data files can be combined into a single file, before writing it at a specific location in a specific format for further processing.
+The Data Science on Databricks is a Python project used to study for the databricks associate machine learning engineer exam.
 
-- **Website:** https://projects.vannijnatten.dev/dpp
-- **Documentation:** https://docs.vannijnatten.dev/dpp
+- **Website:** https://projects.vannijnatten.dev/
+- **Documentation:** https://docs.vannijnatten.dev/
 
 
 # Code of Conduct
 
-The Data Pre-Processor is an open source project developed by a lonely developer in need of contributors.
+The Data Science on Databricks is an open source project developed by a lonely developer in need of contributors.
+
 - Please read the [Code of Conduct](./docs/CODE_OF_CONDUCT.md) for guidance on how to interact with others in a way that makes a community thrive.
 - Please also read how to [Contribute](./docs/CONTRIBUTING.md), if you would like to contribute.
 

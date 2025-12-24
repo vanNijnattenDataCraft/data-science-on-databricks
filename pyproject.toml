@@ -1,7 +1,7 @@
 [project]
-    name = "data_preprocessor"
+    name = "data-science-on-databricks"
     version = "0.1.0"
-    description = "The Data Processor"
+    description = "Data Science on Databricks"
     authors = [
         {name = "J. van Nijnatten"},
     ]
