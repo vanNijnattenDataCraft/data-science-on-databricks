@@ -102,6 +102,7 @@ jobs:
             - name: Run tests
               run: |
                 uv run pytest $TST_PATH \
+                  -m "not databricks" \
                   --cov=$SRC_PATH \
                   --doctest-modules \
                   --cov-report markdown-append:$GITHUB_STEP_SUMMARY

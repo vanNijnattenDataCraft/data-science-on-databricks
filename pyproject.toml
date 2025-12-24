@@ -138,10 +138,8 @@
         "--strict-markers"
     ]
     markers = [
-        "configuration",
-        "data",
         "slow",
-        "user_interface",
+        "databricks",
     ]
     testpaths = [
         "tests"

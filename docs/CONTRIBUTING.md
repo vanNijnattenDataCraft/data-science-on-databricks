@@ -146,6 +146,8 @@ Follow the following steps to setup your development environment;
 <!-- TODO -->
 
 #### Testing
+local: `uv run pytest -v -s -m "not databricks" tests`
+on databricks: `uv run pytest -v -s -m "databricks" tests`
 <!-- TODO -->
 
 #### Creating a Pull Request
