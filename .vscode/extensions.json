@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "charliermarsh.ruff",
+        "databricks.databricks",
         "eamodio.gitlens",
         "github.vscode-github-actions",
         "github.vscode-pull-request-github",
@@ -8,6 +9,7 @@
         "mechatroner.rainbow-csv",
         "ms-python.python",
         "oderwat.indent-rainbow",
+        "redhat.vscode-yaml",
         "usernamehw.errorlens",
     ]
 }

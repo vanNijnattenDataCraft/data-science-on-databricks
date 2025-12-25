@@ -1,3 +1,18 @@
+# Databricks
+.databricks
+*.egg-info
+scratch/**
+!scratch/README.md
+**/explorations/**
+**/!explorations/README.md
+
+# linters
+.mypy_cache
+.ruff_cache
+
+# pytest
+.coverage
+
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -9,15 +24,7 @@ wheels/
 # Virtual environments
 .venv
 
-# linters
-.mypy_cache
-.ruff_cache
-
-# pytest
-.coverage
-
 # VSCode
 .vscode/extensions.json
 .vscode/launch.json
 .vscode/settings.json
-
