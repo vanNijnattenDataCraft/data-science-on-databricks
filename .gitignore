@@ -1,5 +1,10 @@
 # Databricks
 .databricks
+*.egg-info
+scratch/**
+!scratch/README.md
+**/explorations/**
+**/!explorations/README.md
 
 # linters
 .mypy_cache

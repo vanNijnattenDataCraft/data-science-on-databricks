@@ -1,18 +1,34 @@
 {
-    "files.insertFinalNewline": true,
+    // VS Code / Editor settings
     "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.rulers": [
-        120,
-    ],
+    "editor.rulers": [120],
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 130,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        ".databricks": true,
+        ".mypy_cache": true,
+        ".pytest_cache": true,
+        ".ruff_cache": true,
+        ".venv": true,
+        "**/__pycache__": true,
+        "**/*.egg-info": true,
+        "dist": true,
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+    // Git
     "git.autofetch": true,
+
+    // Python
     "python.analysis.diagnosticMode": "workspace",
     "python.analysis.generateWithTypeAnnotation": true,
     "python.analysis.typeCheckingMode": "strict",
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "python.defaultInterpreterPath": "./.venv/bin/python",
+
+    // Jupyter / databricks
     "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
     "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
 }

@@ -9,6 +9,7 @@
         "mechatroner.rainbow-csv",
         "ms-python.python",
         "oderwat.indent-rainbow",
+        "redhat.vscode-yaml",
         "usernamehw.errorlens",
     ]
 }
