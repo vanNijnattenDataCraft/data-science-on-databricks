@@ -1,11 +1,12 @@
 import pytest
-from databricks.sdk.runtime import spark
 from pyspark.sql import DataFrame
 from pyspark.sql import types as T
 
 
 @pytest.mark.databricks
 def test_create_table() -> None:
+    from databricks.sdk.runtime import spark
+
     data = [
         (1,),
         (2,),
