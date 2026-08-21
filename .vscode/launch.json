@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Data-Preprocessor: All sources",
+            "name": "Data-Science-on-Databricks: Debug,
             "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}/src/__main__.py",
-            "cwd": "${workspaceFolder}/src/",
+            "program": "${workspaceFolder}/src/data_science_on_databricks/__main__.py",
+            "cwd": "${workspaceFolder}/src/data_science_on_databricks/",
             "console": "integratedTerminal",
             "args": [
                 "--environment", "dev",

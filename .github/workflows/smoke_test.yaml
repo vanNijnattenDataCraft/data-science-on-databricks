@@ -5,11 +5,13 @@ on:
     push:
         branches:
             - main
+            - master
             - patch/**
     
     pull_request:
         branches:
             - main
+            - master
             - patch/**
 
 

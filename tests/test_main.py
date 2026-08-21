@@ -1,6 +1,8 @@
 import pytest
 from pytest_mock.plugin import MockerFixture
 
+from data_science_on_databricks import main
+
 
 @pytest.fixture
 def integer() -> int:
@@ -33,3 +35,8 @@ def test_passes(to_pass: bool) -> None:
 def test_expect_exception(to_pass: bool) -> None:
     with pytest.raises(AssertionError):
         assert to_pass
+
+
+def test_package_exports_main() -> None:
+    assert callable(main)
+    assert main() is None

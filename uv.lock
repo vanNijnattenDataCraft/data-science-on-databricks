@@ -83,7 +83,7 @@ wheels = [
 ]
 
 [[package]]
-name = "data-preprocessor"
+name = "data_science_on_databricks"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

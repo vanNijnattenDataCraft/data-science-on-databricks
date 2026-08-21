@@ -13,4 +13,9 @@
     "python.analysis.generateWithTypeAnnotation": true,
     "python.analysis.typeCheckingMode": "strict",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.exclude": {
+        ".venv":true,
+        ".*_cache":true,
+        "**/__pycache__":true,
+    }
 }

@@ -9,9 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-# linters
-.mypy_cache
-.ruff_cache
+# cache
+.*_cache
 
 # pytest
 .coverage
