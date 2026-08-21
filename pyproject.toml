@@ -51,6 +51,7 @@
 
 [tool.uv]
     package = true
+    required-version = "0.12.5"
 
 [tool.ruff]
     lint.select = [
